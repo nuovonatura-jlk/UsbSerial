@@ -1,9 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'maven'
-
-plugins {
-    id 'maven-publish'
-}
+apply plugin: "maven-publish"
 
 def artifact = "usbserial.jar"
 
